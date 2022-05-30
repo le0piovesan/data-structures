@@ -1,0 +1,77 @@
+QUESTÃO 1
+
+a) A estrutura do nó em uma Lista Simplesmente Encadeada é composta por um valor e um endereço de memória do valor seguinte, 
+enquanto a de uma Lista Duplamente Encadeada além de guardar o valor, endereço do próximo também guarda o endereço do anterior. 
+Já a Árvore Binária é parecida com a Lista Duplamente, exceto nos endereços em que guarda são dos respectivos nós esquerdo ou direito. 
+As listas permitem carregar dados repetidos enquanto a árvore não.
+
+b) Em ambas as Listas podem ser inseridos valores no início, no meio ou no final. Na Árvore é inserido apenas no final.
+
+c) Para remoção segue o mesmo padrão, nas Listas podem ser removidos de qualquer posição, já na Árvore se faz necessário remover 
+do final ou então reorganizá-la.
+
+d) Para Listas Simplesmente Encadeada, é entrado com um número e então percorrê-la desde o início, enquanto nas Duplamente Encadeada 
+é possível percorrer em dois sentidos devido a guardar informações de memória do anterior e do próximo. Já as árvores 
+existem 3 formas possíveis de percorrê-las, sendo por pré-ordem, em-ordem e pós-ordem.
+
+QUESTÃO 2
+
+a) 4
+
+b) 50 - 17 - 12 - 9 - 14 - 23 - 19 - 72 - 54 - 67 - 76
+
+c) 9 - 12 - 14 - 17 - 19 - 23 - 50 - 54 - 67 - 72 - 76
+
+d) 9 - 14 - 12 - 19 - 23 - 17 - 67 - 54 - 76 - 72 - 50
+
+QUESTÃO 3
+
+a) Dígrafo
+
+b) Grau Entrada: 
+   G(1) = 1; G(2) = 2; G(3) = 1; G(4) = 2; G(5) = 2; G(6) = 0; 
+   Grau Saída: 
+   G(1) = 1; G(2) = 3; G(3) = 0; G(4) = 2; G(5) = 1; G(6) = 1; 
+
+
+c) 
+        1	2	3	4	5	6
+    1	0	1	0	0	0	0
+    2	0	1	0	1	1	0
+    3	0	0	0	0	0	0
+    4	1	0	0	0	1	0
+    5	0	0	0	1	0	0
+    6	0	0	1	0	0	0
+
+d) 1 -> 2
+
+   2 -> 2 -> 4 -> 5
+
+   3 -> NULL
+
+   4 -> 1 -> 5
+
+   5 -> 4
+
+   6 -> 3
+
+QUESTÃO 4
+
+O processo foi uma rotação simples à direita no número 5, assim se tornando filho da raiz. 
+Também fazendo com que o valor 10 fosse jogado para baixo se tornando filho de 5 e pai de 8.
+
+QUESTÃO 5
+
+I. Falso, pois a raiz é apenas o nó mais alto da árvore, seria mais correto dizer que "Qualquer nó de uma árvore binária 
+é pai de, no máximo outras duas subárvores". A parte referente ao número de filhos está correta, pois pode possuir nenhuma, 
+uma ou duas no máximo.
+
+II. Verdadeiro, ao percorrer seria divido cada etapa em duas vezes, fazendo alusão a uma função logarítmica 
+facilitando e tornando o processo mais rápido, assim exigindo apenas no máximo comparação com 10 valores.
+
+III. Verdadeiro, reafirmando a resposta do item anterior, serão feitos 10 comparações com 10 valores diferentes até 
+localizar o número x.
+
+IV. Falso, pois não é necessário todas as comparações devido a árvore binária estar organizada cada subnível 
+em valores menores ou maiores que o atual, facilitando a busca.
+
